@@ -2,15 +2,16 @@
     <head></head>
     <body>
         <ol>
-            {%for usuario in tarea_usuarios.usuario.all%}
-            <li><li>Nombre: {{usuario.nombre}}</li>
+            {%for usuario in usuarios_asignados%}
+            <li>
+                <li>Nombre: {{usuario.nombre}}</li>
                 <ul>   
                     <li>Correo: {{usuario.correo}}</li>
-                    <li>Fecha asignacion: {{tarea_usuarios.fecha_asignacion}}
+                    <li>Fecha asignacion: {{usuario.fecha_asignacion}}
              
                 </ul>
             </li>
-            {%endfor linebreaksbr%}
+            {%endfor%}
         </ol>
     </body>
 

@@ -55,6 +55,8 @@ class Asignacion (models.Model):
     
 
 class Comentario (models.Model):
+    tarea=models.ForeignKey(Tarea, on_delete=models.CASCADE)
+    usuario = models.ForeignKey(Usuario, on_delete=models.CASCADE)
     contenido = models.TextField()
     fecha_comentario = models.DateTimeField(default=timezone.now)
 

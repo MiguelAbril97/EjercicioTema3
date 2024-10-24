@@ -1,12 +1,12 @@
 <html>
     <head></head>
     <body>
-    <h1>Tareas del proyecto: {{proyecto.nombre}}</h1>
+   
     
     {%for tarea in tareas_mostrar%}
     
     <div>
-  
+        <h1>Proyecto: {{tarea.proyecto.nombre}}</h2>
         <h2>Ttitulo: {{tarea.titulo}}</h2>
         <h2>Descripcion:</h2>
         <p>{{tarea.descripcion}}</p>
@@ -22,6 +22,12 @@
                 <li>Nombre: {{usuario.nombre}}. Correo: {{usuario.correo}}</li>
                 {%endfor%}
             </ul>
+        <h2>Comentarios: </h2>
+        <ul>
+            {%for comentario in tarea.comentario.all%}
+            <li><p>{{comentario.contenido}}</p></li>
+            {%endfor%}
+        </ul>
     </div>
     {%endfor linebreaksbr%}
     </body>
