@@ -1,0 +1,31 @@
+<html>
+    <head></head>
+    <body>
+    <h1>Proyectos</h1>
+    
+    {%for proyecto in proyectos_mostrar%}
+
+    <div>
+        <h2>Nombre: {{proyecto.nombre}}</h2>
+        <h2>Descripcion:</h2>
+        <p>{{proyecto.descripcion}}</p>
+
+        <h2>Duracion estimada: {{proyecto.duracion_estimada}}</h2>
+        <h2>Fecha inicio: {{proyecto.fecha_inicio}}</h2>
+        <h2>Finalizacion: {{proyecto.fecha_finalizacion}}</h2>
+        <h2>Administrador: {{proyecto.administrador.nombre}}</h2>
+        <h2>Colabroadores:</h2>
+
+        <ul>
+            {%for colaborador in proyecto_mostrar.colaboradores.all%}
+            <li>{{colaborador.nombre}}</li>
+            <li>{{colaborador.correo}}</li>
+            {% endfor %}
+        </ul>
+
+    </div>
+    {%endfor linebreaksbr%}
+
+    </body>
+
+</html>
