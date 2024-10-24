@@ -1,0 +1,17 @@
+<html>
+    <head></head>
+    <body>
+        <ol>
+            {%for usuario in tarea_usuarios.usuario.all%}
+            <li><li>Nombre: {{usuario.nombre}}</li>
+                <ul>   
+                    <li>Correo: {{usuario.correo}}</li>
+                    <li>Fecha asignacion: {{tarea_usuarios.fecha_asignacion}}
+             
+                </ul>
+            </li>
+            {%endfor linebreaksbr%}
+        </ol>
+    </body>
+
+</html>
