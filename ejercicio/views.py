@@ -23,8 +23,8 @@ def tareas_proyecto(request,id_proyecto):
     """
 def tarea_usuarios(request, id_tarea):
     usuarios = Asignacion.objects.select_related('tarea', 'usuario')
-    usuarios = usuarios.filter(tarea__id=id_tarea).order_by('fecha_asignacion').all()
-    return render (request, 'tareas/usuarios.html', {'usuarios_asignadoss':usuarios})
+    usuarios = usuarios.filter(tarea=id_tarea).order_by('fecha_asignacion').all()
+    return render (request, 'tareas/usuarios.html', {'usuarios_asignados':usuarios})
     """
     Crear una URL que muestre todas las tareas que tengan un texto en concreto
     en las observaciones a la hora de asignarlas a un usuario.
