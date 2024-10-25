@@ -67,5 +67,9 @@ def comentario_palabra_anyo (request, palabra, anyo):
    comentario = Comentario.objects.select_related('tarea','usuario')
    comentario = comentario.filter(contenido__istartswith=palabra, fecha_comentario__year=anyo).all()
    return render(request, 'comentarios/comentario.html', {'comentarios':comentario})
-    
-    
+
+## Crear una URL que muestre todos los usuarios que no están asignados a una tarea.
+
+def usuarios_noasignados (request):
+    usuarios = Usuario.objects.filter(asignacion__usuario = None).all()
+    return render(request, "tareas/usuarios.html", {'usuarios_asignados':usuarios})  
