@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Etiquetas del Proyecto</title>
+</head>
+<body>
+    <h1>Etiquetas del Proyecto:  {{proyecto.nombre}}</h1>
+    <ul>
+        {% for etiqueta in etiquetas %}
+            <li>{{ etiqueta.nombre }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

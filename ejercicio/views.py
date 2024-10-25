@@ -85,8 +85,9 @@ def usuarios_noasignados (request):
 ##Crear una URL que obtenga todas las etiquetas que se han usado en todas las tareas de un proyecto.
 
 def etiquetas_proyecto (request, id_proyecto):
-    etiquetas = Etiqueta.objects.select_related('usuario','tarea').filter(tarea__proyecto=id_proyecto).all()
-    return render(request, 'proyectos/etiquetas.html',{'etiquetas':etiquetas})
+    proyecto = Proyecto.objects.get(id=id_proyecto)
+    etiquetas = Etiqueta.objects.prefetch_related('tarea').filter(tarea__proyecto=id_proyecto).all()
+    return render(request, 'proyectos/etiquetas.html',{'etiquetas':etiquetas, 'proyecto':proyecto})
 
 
 ##Crear una página de Error personalizada para cada uno de los 4 tipos de errores que pueden ocurrir en nuestra Web.
