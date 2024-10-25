@@ -11,5 +11,6 @@ urlpatterns = [
     path('usuario/<int:id_proyecto>/',views.ultimo_comentario, name='ultimo_comentario'),
     path('comentario/<str:palabra>/<int:anyo>', views.comentario_palabra_anyo, name='comentario_palabra_anyo'),
     path('usuarios/noAsignados/',views.usuarios_noasignados,name="usuarios_noasignados"),
+    path('proyecto/etiquetas/<int:id_proyecto>',views.etiquetas_proyecto,name="etiquetas_proyecto")
 ]
 

@@ -11,17 +11,24 @@ def listar_proyectos(request):
     proyectos = Proyecto.objects.select_related('administrador').prefetch_related('colaboradores')
     proyectos = proyectos.all()
     return render(request, 'proyectos/lista.html', {'proyectos_mostrar':proyectos})
+   
+    """
+    Crear una URL que muestre todas las tareas que están asociadas a un proyecto, 
+    ordenadas por fecha de creación descendente.
+    """
 
 def tareas_proyecto(request,id_proyecto):
     proyecto = Proyecto.objects.get(id=id_proyecto)
     tareas = Tarea.objects.select_related('creador','proyecto').prefetch_related('usuario')
     tareas = tareas.filter(proyecto=id_proyecto).order_by('-fecha_creacion')
     return render (request,'tareas/lista.html', {'tareas_mostrar':tareas,"proyecto":proyecto})
+   
     """
     Crear una URL que muestre todos los usuarios que están asignados
     a una tarea ordenados por la fecha de asignación 
     de la tarea de forma ascendente. 
     """
+
 def tarea_usuarios(request, id_tarea):
     usuarios = Asignacion.objects.select_related('tarea', 'usuario')
     usuarios = usuarios.filter(tarea=id_tarea).order_by('fecha_asignacion').all()
@@ -74,6 +81,13 @@ def comentario_palabra_anyo (request, palabra, anyo):
 def usuarios_noasignados (request):
     usuarios = Usuario.objects.filter(asignacion__usuario = None).all()
     return render(request, "tareas/usuarios.html", {'usuarios_asignados':usuarios})
+
+##Crear una URL que obtenga todas las etiquetas que se han usado en todas las tareas de un proyecto.
+
+def etiquetas_proyecto (request, id_proyecto):
+    etiquetas = Etiqueta.objects.select_related('usuario','tarea').filter(tarea__proyecto=id_proyecto).all()
+    return render(request, 'proyectos/etiquetas.html',{'etiquetas':etiquetas})
+
 
 ##Crear una página de Error personalizada para cada uno de los 4 tipos de errores que pueden ocurrir en nuestra Web.
 

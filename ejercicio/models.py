@@ -44,10 +44,8 @@ class Tarea (models.Model):
     proyecto = models.ForeignKey(Proyecto, on_delete=models.CASCADE)
         
 class Etiqueta (models.Model):
-    usuario=models.ForeignKey(Usuario,on_delete=models.CASCADE)
-    tarea=models.ForeignKey(Tarea,on_delete=models.CASCADE)
     nombre = models.CharField(max_length=50,unique=True)
-    tarea = models.ManyToManyField(Tarea)
+    tarea = models.ManyToManyField(Tarea, related_name="tarea_etiqueta")
 
 class Asignacion (models.Model):
     usuario= models.ForeignKey(Usuario, on_delete= models.CASCADE)
