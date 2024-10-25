@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .models import *
 from django.db.models import Q,F,Prefetch
 from django.db.models import Avg,Max,Min
+from django.views.defaults import page_not_found, permission_denied, bad_request, server_error
 # Create your views here.
 def index(request):
     return render(request, 'index.html') 
@@ -72,4 +73,18 @@ def comentario_palabra_anyo (request, palabra, anyo):
 
 def usuarios_noasignados (request):
     usuarios = Usuario.objects.filter(asignacion__usuario = None).all()
-    return render(request, "tareas/usuarios.html", {'usuarios_asignados':usuarios})  
+    return render(request, "tareas/usuarios.html", {'usuarios_asignados':usuarios})
+
+##Crear una página de Error personalizada para cada uno de los 4 tipos de errores que pueden ocurrir en nuestra Web.
+
+def mi_error_400(request, exception=None):
+    return render(request, 'errores/400.html', None, None, 400)
+
+def mi_error_403(request, exception=None):
+    return render(request, 'errores/403.html', None, None, 403)
+
+def mi_error_404(request, exception=None):
+    return render(request, 'errores/404.html', None, None, 404)
+
+def mi_error_500(request):
+    return render(request, 'errores/500.html', None, None, 500)

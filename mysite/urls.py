@@ -23,3 +23,10 @@ urlpatterns = [
     path("__debug__/", include("debug_toolbar.urls")),
 
 ]
+
+from django.conf.urls import handler400, handler403, handler404, handler500
+
+handler400 = 'ejercicio.views.mi_error_400'
+handler403 = 'ejercicio.views.mi_error_403'
+handler404 = 'ejercicio.views.mi_error_404'
+handler500 = 'ejercicio.views.mi_error_500'
