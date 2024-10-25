@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentario</title>
+</head>
+<body>
+    {%for comentario in comentarios%}
+    
+    <div>
+        <h2>Nombre del usuario: {{comentario.usuario.nombre}}</h2>
+        <h2>Fecha del comentario: {{comentario.fecha_comentario }}</h2>
+        <h2>Tarea en la que se comento: {{comentario.tarea.titulo}}</h2>
+        <p>{{comentario.contenido}}</p>
+    </div>
+
+    {%endfor%}
+</body>
+</html>
