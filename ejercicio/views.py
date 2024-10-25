@@ -63,4 +63,8 @@ def ultimo_comentario(request,id_proyecto):
     la URL y que el año del comentario sea uno en concreto.
     """
     
+def comentario_palabra_anyo (request, palabra, anyo):
+   comentario = Comentario.objects.select_related('tarea','usuario')
+   comentario = comentario.filter(contenido__icontains=palabra)
+   return render(request, 'comentarios/comentario.html', {'comentario_mostrar':comentario})
     
