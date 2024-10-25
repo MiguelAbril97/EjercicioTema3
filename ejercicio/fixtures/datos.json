@@ -1,0 +1,2019 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add proyecto",
+        "content_type": 7,
+        "codename": "add_proyecto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change proyecto",
+        "content_type": 7,
+        "codename": "change_proyecto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete proyecto",
+        "content_type": 7,
+        "codename": "delete_proyecto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view proyecto",
+        "content_type": 7,
+        "codename": "view_proyecto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add usuario",
+        "content_type": 8,
+        "codename": "add_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change usuario",
+        "content_type": 8,
+        "codename": "change_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete usuario",
+        "content_type": 8,
+        "codename": "delete_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view usuario",
+        "content_type": 8,
+        "codename": "view_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add tarea",
+        "content_type": 9,
+        "codename": "add_tarea"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change tarea",
+        "content_type": 9,
+        "codename": "change_tarea"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete tarea",
+        "content_type": 9,
+        "codename": "delete_tarea"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view tarea",
+        "content_type": 9,
+        "codename": "view_tarea"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add etiqueta",
+        "content_type": 10,
+        "codename": "add_etiqueta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change etiqueta",
+        "content_type": 10,
+        "codename": "change_etiqueta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete etiqueta",
+        "content_type": 10,
+        "codename": "delete_etiqueta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view etiqueta",
+        "content_type": 10,
+        "codename": "view_etiqueta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add asignacion",
+        "content_type": 11,
+        "codename": "add_asignacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change asignacion",
+        "content_type": 11,
+        "codename": "change_asignacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete asignacion",
+        "content_type": 11,
+        "codename": "delete_asignacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view asignacion",
+        "content_type": 11,
+        "codename": "view_asignacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add comentario",
+        "content_type": 12,
+        "codename": "add_comentario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change comentario",
+        "content_type": 12,
+        "codename": "change_comentario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete comentario",
+        "content_type": 12,
+        "codename": "delete_comentario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view comentario",
+        "content_type": 12,
+        "codename": "view_comentario"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "ejercicio",
+        "model": "proyecto"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "ejercicio",
+        "model": "usuario"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "ejercicio",
+        "model": "tarea"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "ejercicio",
+        "model": "etiqueta"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "ejercicio",
+        "model": "asignacion"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "ejercicio",
+        "model": "comentario"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 1,
+    "fields": {
+        "nombre": "House reveal perform group.",
+        "correo": "lisa97@example.com",
+        "password": "Explain star former store.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 2,
+    "fields": {
+        "nombre": "Product front really western chair.",
+        "correo": "lewistim@example.net",
+        "password": "Consumer enter nature great.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 3,
+    "fields": {
+        "nombre": "Our ok year language remain.",
+        "correo": "brandon74@example.org",
+        "password": "Rise turn southern.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 4,
+    "fields": {
+        "nombre": "Available certainly herself computer.",
+        "correo": "michellejohnson@example.org",
+        "password": "Again owner second.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 5,
+    "fields": {
+        "nombre": "Data him determine democratic always serve.",
+        "correo": "tina82@example.org",
+        "password": "Physical former ever.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 6,
+    "fields": {
+        "nombre": "Fund wish newspaper toward crime.",
+        "correo": "williamwilliams@example.org",
+        "password": "Food loss road until wide.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 7,
+    "fields": {
+        "nombre": "Fish read into foreign language.",
+        "correo": "morenoderek@example.com",
+        "password": "Building list door.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 8,
+    "fields": {
+        "nombre": "Thing their stage common.",
+        "correo": "laura45@example.com",
+        "password": "Look direction about.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 9,
+    "fields": {
+        "nombre": "Outside sort event official.",
+        "correo": "silvatheresa@example.net",
+        "password": "Book if both change piece.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 10,
+    "fields": {
+        "nombre": "Interesting if item now then interest later.",
+        "correo": "cunninghamrebecca@example.org",
+        "password": "People task research present.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 11,
+    "fields": {
+        "nombre": "Apply I space. Necessary nearly other order idea.",
+        "correo": "jesse03@example.com",
+        "password": "Half live land people.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 12,
+    "fields": {
+        "nombre": "Year source challenge thought.",
+        "correo": "meganhenson@example.com",
+        "password": "Teach dream young both.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 13,
+    "fields": {
+        "nombre": "President old woman TV pass.",
+        "correo": "freemanpatrick@example.com",
+        "password": "Blue task PM fact create.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 14,
+    "fields": {
+        "nombre": "Draw act receive.",
+        "correo": "osnyder@example.com",
+        "password": "Film provide give when law.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.usuario",
+    "pk": 15,
+    "fields": {
+        "nombre": "Avoid place key series seem through.",
+        "correo": "jeannestewart@example.net",
+        "password": "Top force participant small.",
+        "fecha_registro": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 1,
+    "fields": {
+        "nombre": "Least finally organization look.",
+        "descripcion": "Garden town resource wrong position nice. Sell onto world town. Indeed fly service message administration tell old.",
+        "duracion_estimada": 0.953725954014101,
+        "fecha_inicio": "1999-11-25",
+        "fecha_finalizacion": "1984-05-31",
+        "administrador": 7,
+        "colaboradores": [
+            1,
+            2,
+            4,
+            10
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 2,
+    "fields": {
+        "nombre": "Later writer model society call main song.",
+        "descripcion": "Poor whose lay leg bit measure. Fight matter walk moment toward.\nNotice wall ground. Country rate also forward easy production. Before whom finally and glass.",
+        "duracion_estimada": 0.8579981052154746,
+        "fecha_inicio": "2018-12-19",
+        "fecha_finalizacion": "1974-09-01",
+        "administrador": 14,
+        "colaboradores": [
+            11
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 3,
+    "fields": {
+        "nombre": "Seat ground continue thus level.",
+        "descripcion": "Indeed step federal. Hold new series nearly stay step figure.\nGas window others base leave police. Base avoid charge term area defense. Reality skill difference.",
+        "duracion_estimada": 0.687384715247253,
+        "fecha_inicio": "1972-03-17",
+        "fecha_finalizacion": "2012-04-05",
+        "administrador": 5,
+        "colaboradores": [
+            2,
+            15
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 4,
+    "fields": {
+        "nombre": "Yet police question century.",
+        "descripcion": "Budget standard their another light with. Hear again race study class. Turn performance fall theory.",
+        "duracion_estimada": 0.7025611537622474,
+        "fecha_inicio": "1985-05-06",
+        "fecha_finalizacion": "1975-11-29",
+        "administrador": 15,
+        "colaboradores": [
+            4
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 5,
+    "fields": {
+        "nombre": "Imagine common teach up.",
+        "descripcion": "List lead heart less particular language situation. Wonder item great scientist relate candidate these.",
+        "duracion_estimada": 0.03481979724319739,
+        "fecha_inicio": "1974-08-21",
+        "fecha_finalizacion": "1995-01-13",
+        "administrador": 14,
+        "colaboradores": [
+            11
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 6,
+    "fields": {
+        "nombre": "Minute nice model wrong people despite.",
+        "descripcion": "Safe future improve age foot important stand sense. Team small manage close two again like. Tonight upon course senior practice smile black.\nCharge suggest there dream. Air reach could seven.",
+        "duracion_estimada": 0.06487863302765973,
+        "fecha_inicio": "1992-12-06",
+        "fecha_finalizacion": "2014-03-31",
+        "administrador": 12,
+        "colaboradores": [
+            2,
+            6,
+            14
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 7,
+    "fields": {
+        "nombre": "Offer member class room institution.",
+        "descripcion": "Case medical out third. Guess civil front myself level.\nWear get radio education prepare painting only. Fish appear later party pretty rest war wind. Music interest level wish like build then.",
+        "duracion_estimada": 0.7652480448274533,
+        "fecha_inicio": "1974-06-28",
+        "fecha_finalizacion": "1979-02-13",
+        "administrador": 8,
+        "colaboradores": [
+            15
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 8,
+    "fields": {
+        "nombre": "I establish fact these.",
+        "descripcion": "Activity training deep training food employee language. Expect condition why part state.\nProfessional shoulder arrive follow walk exist certain. Former poor to shoulder any glass able.",
+        "duracion_estimada": 0.7054325188751397,
+        "fecha_inicio": "1981-10-18",
+        "fecha_finalizacion": "1987-05-24",
+        "administrador": 14,
+        "colaboradores": [
+            3,
+            4,
+            6,
+            8
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 9,
+    "fields": {
+        "nombre": "Ability allow until.",
+        "descripcion": "Station game health life second someone age. Care item management example scene dark artist history. American such month friend newspaper approach.",
+        "duracion_estimada": 0.030658906891977478,
+        "fecha_inicio": "2016-12-04",
+        "fecha_finalizacion": "1986-02-05",
+        "administrador": 11,
+        "colaboradores": [
+            2,
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 10,
+    "fields": {
+        "nombre": "Including various long child.",
+        "descripcion": "Including side various. Surface sea then discover international.\nMouth weight society establish down serve.\nGreen assume know thank.\nGame seem security smile.",
+        "duracion_estimada": 0.4461008331208719,
+        "fecha_inicio": "1974-11-16",
+        "fecha_finalizacion": "1982-09-26",
+        "administrador": 13,
+        "colaboradores": [
+            5,
+            8,
+            9,
+            10
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 11,
+    "fields": {
+        "nombre": "Drive nor fear in.",
+        "descripcion": "Less administration word. Personal piece daughter stay inside far with order.\nStar form walk by exist place send. Plan debate same table growth usually newspaper. Thus year mission join early night.",
+        "duracion_estimada": 0.9247925054109607,
+        "fecha_inicio": "1971-02-19",
+        "fecha_finalizacion": "2000-04-07",
+        "administrador": 8,
+        "colaboradores": [
+            2
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 12,
+    "fields": {
+        "nombre": "Point lot often seek individual deep range.",
+        "descripcion": "Happen hold win someone attorney reflect dinner. Single fill agreement decade.\nHome bed prepare hold back. During name surface occur rock lawyer challenge goal.",
+        "duracion_estimada": 0.4483222227320699,
+        "fecha_inicio": "2017-06-15",
+        "fecha_finalizacion": "1994-09-07",
+        "administrador": 4,
+        "colaboradores": [
+            1,
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 13,
+    "fields": {
+        "nombre": "Consumer process firm small start above.",
+        "descripcion": "Them end edge visit control analysis. Third there knowledge plant garden. Determine various board choice.\nAround serious reveal name set. Service western she we.",
+        "duracion_estimada": 0.568925521261011,
+        "fecha_inicio": "2010-11-03",
+        "fecha_finalizacion": "1994-08-03",
+        "administrador": 9,
+        "colaboradores": [
+            13
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 14,
+    "fields": {
+        "nombre": "Machine around save draw trade add some.",
+        "descripcion": "Point most send still because final bring. Professor evidence state record first newspaper. Require real already rich same really.",
+        "duracion_estimada": 0.2518590406939428,
+        "fecha_inicio": "2004-04-15",
+        "fecha_finalizacion": "2021-09-08",
+        "administrador": 15,
+        "colaboradores": [
+            4,
+            7,
+            9
+        ]
+    }
+},
+{
+    "model": "ejercicio.proyecto",
+    "pk": 15,
+    "fields": {
+        "nombre": "Cut significant international couple hot wife.",
+        "descripcion": "Worry I activity pass avoid authority life.\nThree defense process eat heavy long. Style in white computer room.",
+        "duracion_estimada": 0.25053202907279704,
+        "fecha_inicio": "1984-02-07",
+        "fecha_finalizacion": "1976-04-29",
+        "administrador": 2,
+        "colaboradores": [
+            2,
+            9,
+            14,
+            15
+        ]
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 1,
+    "fields": {
+        "titulo": "Argue keep write energy which health.",
+        "descripcion": "Be oil often eye mother. Player beautiful board avoid.\nBank various discussion. But tree trouble very painting analysis.",
+        "prioridad": 1946,
+        "estado": "PE",
+        "completada": false,
+        "fecha_creacion": "1986-11-29",
+        "hora_vencimiento": "09:37:36",
+        "creador": 1,
+        "proyecto": 11
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 2,
+    "fields": {
+        "titulo": "Growth movement involve available test walk rise.",
+        "descripcion": "Year couple energy foot tend return perhaps new. Name it resource order. Know stuff food free.\nChange team answer without garden ball statement. Politics it health.",
+        "prioridad": 9599,
+        "estado": "PE",
+        "completada": true,
+        "fecha_creacion": "1974-06-22",
+        "hora_vencimiento": "17:22:03",
+        "creador": 6,
+        "proyecto": 11
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 3,
+    "fields": {
+        "titulo": "From next while your moment wonder leg.",
+        "descripcion": "To pretty ready face. Far difference term company those.\nEnvironment several than act religious meet interview. Defense fill particular back research short.",
+        "prioridad": -4833,
+        "estado": "PE",
+        "completada": false,
+        "fecha_creacion": "1997-01-20",
+        "hora_vencimiento": "17:36:15",
+        "creador": 1,
+        "proyecto": 8
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 4,
+    "fields": {
+        "titulo": "School thing garden.",
+        "descripcion": "Last individual management know social. Whom quality land develop kid issue interesting. Month laugh note poor.",
+        "prioridad": 16621,
+        "estado": "PE",
+        "completada": true,
+        "fecha_creacion": "1982-11-13",
+        "hora_vencimiento": "16:45:54",
+        "creador": 6,
+        "proyecto": 14
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 5,
+    "fields": {
+        "titulo": "Finally provide produce term some.",
+        "descripcion": "Street write budget public sound science. Win but only. Parent certain I age.\nLight field matter plan garden bill. Whether ever person structure. Benefit word plant few financial challenge others.",
+        "prioridad": 24800,
+        "estado": "PE",
+        "completada": true,
+        "fecha_creacion": "2005-10-07",
+        "hora_vencimiento": "05:12:55",
+        "creador": 8,
+        "proyecto": 7
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 6,
+    "fields": {
+        "titulo": "Free again order.",
+        "descripcion": "Method bring PM fear beat. Husband claim recent reach cultural today. What participant board account recently.",
+        "prioridad": 19751,
+        "estado": "PE",
+        "completada": true,
+        "fecha_creacion": "2006-07-17",
+        "hora_vencimiento": "14:23:26",
+        "creador": 1,
+        "proyecto": 10
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 7,
+    "fields": {
+        "titulo": "Bad bed class century indeed.",
+        "descripcion": "Enough appear these. Road amount themselves maybe.\nDeal give cost bank. Identify particular subject letter hard position.",
+        "prioridad": 26523,
+        "estado": "PE",
+        "completada": true,
+        "fecha_creacion": "1977-10-13",
+        "hora_vencimiento": "10:48:20",
+        "creador": 4,
+        "proyecto": 2
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 8,
+    "fields": {
+        "titulo": "Although maybe TV as.",
+        "descripcion": "Party interesting performance health sea laugh. Late ability however game indeed several sometimes. Year imagine air him even miss area.",
+        "prioridad": -19012,
+        "estado": "PE",
+        "completada": true,
+        "fecha_creacion": "1979-04-26",
+        "hora_vencimiento": "06:20:09",
+        "creador": 12,
+        "proyecto": 8
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 9,
+    "fields": {
+        "titulo": "Finally arrive ground establish tax player nor.",
+        "descripcion": "National western soldier result those. Adult your bad fire also. Moment team tend prove air.\nSpeak mission newspaper radio down. With anything film to PM necessary.",
+        "prioridad": 15537,
+        "estado": "PE",
+        "completada": false,
+        "fecha_creacion": "1988-12-06",
+        "hora_vencimiento": "12:33:22",
+        "creador": 4,
+        "proyecto": 14
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 10,
+    "fields": {
+        "titulo": "No common prevent might sometimes.",
+        "descripcion": "Brother question onto name then. Prepare big street wife read under central. Individual father do picture.\nHome leave health night stand billion. Deep arm blood source senior affect.",
+        "prioridad": 17114,
+        "estado": "PE",
+        "completada": false,
+        "fecha_creacion": "1975-10-23",
+        "hora_vencimiento": "01:28:29",
+        "creador": 15,
+        "proyecto": 12
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 11,
+    "fields": {
+        "titulo": "Member however father their soldier.",
+        "descripcion": "Four unit standard position.\nCompare traditional test. Low include rule any bag minute stock. President lawyer miss site be.\nFuture create authority born recognize along.",
+        "prioridad": 18888,
+        "estado": "PE",
+        "completada": false,
+        "fecha_creacion": "2014-06-06",
+        "hora_vencimiento": "23:32:16",
+        "creador": 2,
+        "proyecto": 10
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 12,
+    "fields": {
+        "titulo": "Art concern defense physical tonight news.",
+        "descripcion": "Article hair or member. Hit go difference policy.\nDetail third condition analysis. Executive yourself rise culture.\nInformation game short analysis. Detail protect language way.",
+        "prioridad": 7771,
+        "estado": "PE",
+        "completada": false,
+        "fecha_creacion": "1979-08-08",
+        "hora_vencimiento": "00:14:54",
+        "creador": 2,
+        "proyecto": 14
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 13,
+    "fields": {
+        "titulo": "Paper discuss social cover able your training.",
+        "descripcion": "Painting around ability down blue music. Ever ever institution her.\nAt decade statement plan station success. Until finish coach box worker necessary return.",
+        "prioridad": 29705,
+        "estado": "PE",
+        "completada": true,
+        "fecha_creacion": "2024-08-07",
+        "hora_vencimiento": "14:14:48",
+        "creador": 2,
+        "proyecto": 14
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 14,
+    "fields": {
+        "titulo": "Picture institution history sister.",
+        "descripcion": "Its return long boy. Seek but after partner. Glass research structure church.\nGun put hot push. Break yeah glass. Evening nation thing television special finish recently science.",
+        "prioridad": 16199,
+        "estado": "PE",
+        "completada": false,
+        "fecha_creacion": "2014-10-26",
+        "hora_vencimiento": "07:40:29",
+        "creador": 11,
+        "proyecto": 5
+    }
+},
+{
+    "model": "ejercicio.tarea",
+    "pk": 15,
+    "fields": {
+        "titulo": "Air rather claim this time least time hotel.",
+        "descripcion": "Imagine modern base activity owner guy. Nearly north democratic too investment south environmental interview.",
+        "prioridad": 22574,
+        "estado": "PE",
+        "completada": true,
+        "fecha_creacion": "2005-01-02",
+        "hora_vencimiento": "12:27:10",
+        "creador": 14,
+        "proyecto": 9
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 1,
+    "fields": {
+        "nombre": "American majority PM office program mother at.",
+        "tarea": [
+            6
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 2,
+    "fields": {
+        "nombre": "It perhaps only finish experience positive.",
+        "tarea": [
+            3
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 3,
+    "fields": {
+        "nombre": "Site feel church. Affect account similar why it.",
+        "tarea": [
+            7,
+            9,
+            11,
+            12
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 4,
+    "fields": {
+        "nombre": "Morning reach third skill speak skin.",
+        "tarea": [
+            4,
+            15
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 5,
+    "fields": {
+        "nombre": "A describe never suddenly.",
+        "tarea": [
+            7,
+            15
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 6,
+    "fields": {
+        "nombre": "Avoid imagine believe teacher foot.",
+        "tarea": [
+            1,
+            5,
+            15
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 7,
+    "fields": {
+        "nombre": "Writer suggest pass commercial.",
+        "tarea": [
+            2,
+            14
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 8,
+    "fields": {
+        "nombre": "Choice yeah increase job cover.",
+        "tarea": [
+            7,
+            12
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 9,
+    "fields": {
+        "nombre": "Cost while performance each.",
+        "tarea": [
+            7,
+            8
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 10,
+    "fields": {
+        "nombre": "Assume list think case.",
+        "tarea": [
+            13
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 11,
+    "fields": {
+        "nombre": "Weight teach yourself.",
+        "tarea": [
+            10,
+            15
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 12,
+    "fields": {
+        "nombre": "Rich according office hair.",
+        "tarea": [
+            10
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 13,
+    "fields": {
+        "nombre": "Right police fill kid politics.",
+        "tarea": [
+            6,
+            7,
+            10,
+            15
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 14,
+    "fields": {
+        "nombre": "Their peace consumer mind management.",
+        "tarea": [
+            1,
+            2,
+            12
+        ]
+    }
+},
+{
+    "model": "ejercicio.etiqueta",
+    "pk": 15,
+    "fields": {
+        "nombre": "Black bag best interest song.",
+        "tarea": [
+            6,
+            7,
+            11
+        ]
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 1,
+    "fields": {
+        "usuario": 7,
+        "tarea": 1,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.769Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 2,
+    "fields": {
+        "usuario": 13,
+        "tarea": 1,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.771Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 3,
+    "fields": {
+        "usuario": 3,
+        "tarea": 1,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.772Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 4,
+    "fields": {
+        "usuario": 9,
+        "tarea": 2,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.786Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 5,
+    "fields": {
+        "usuario": 8,
+        "tarea": 2,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.787Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 6,
+    "fields": {
+        "usuario": 2,
+        "tarea": 3,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.803Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 7,
+    "fields": {
+        "usuario": 13,
+        "tarea": 3,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.805Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 8,
+    "fields": {
+        "usuario": 14,
+        "tarea": 3,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.807Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 9,
+    "fields": {
+        "usuario": 4,
+        "tarea": 3,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.808Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 10,
+    "fields": {
+        "usuario": 7,
+        "tarea": 4,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.822Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 11,
+    "fields": {
+        "usuario": 15,
+        "tarea": 4,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.824Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 12,
+    "fields": {
+        "usuario": 12,
+        "tarea": 4,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.826Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 13,
+    "fields": {
+        "usuario": 2,
+        "tarea": 4,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.828Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 14,
+    "fields": {
+        "usuario": 12,
+        "tarea": 5,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.839Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 15,
+    "fields": {
+        "usuario": 7,
+        "tarea": 6,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.851Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 16,
+    "fields": {
+        "usuario": 11,
+        "tarea": 6,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.852Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 17,
+    "fields": {
+        "usuario": 14,
+        "tarea": 6,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.853Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 18,
+    "fields": {
+        "usuario": 6,
+        "tarea": 6,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.855Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 19,
+    "fields": {
+        "usuario": 2,
+        "tarea": 7,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.867Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 20,
+    "fields": {
+        "usuario": 4,
+        "tarea": 7,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.868Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 21,
+    "fields": {
+        "usuario": 7,
+        "tarea": 7,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.869Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 22,
+    "fields": {
+        "usuario": 15,
+        "tarea": 7,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.870Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 23,
+    "fields": {
+        "usuario": 15,
+        "tarea": 8,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.880Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 24,
+    "fields": {
+        "usuario": 12,
+        "tarea": 8,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.881Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 25,
+    "fields": {
+        "usuario": 9,
+        "tarea": 9,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.892Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 26,
+    "fields": {
+        "usuario": 3,
+        "tarea": 9,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.893Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 27,
+    "fields": {
+        "usuario": 7,
+        "tarea": 9,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.894Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 28,
+    "fields": {
+        "usuario": 13,
+        "tarea": 10,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.903Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 29,
+    "fields": {
+        "usuario": 15,
+        "tarea": 11,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.912Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 30,
+    "fields": {
+        "usuario": 9,
+        "tarea": 11,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.913Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 31,
+    "fields": {
+        "usuario": 6,
+        "tarea": 11,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.914Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 32,
+    "fields": {
+        "usuario": 10,
+        "tarea": 12,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.923Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 33,
+    "fields": {
+        "usuario": 10,
+        "tarea": 13,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.934Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 34,
+    "fields": {
+        "usuario": 15,
+        "tarea": 13,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.935Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 35,
+    "fields": {
+        "usuario": 6,
+        "tarea": 13,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.936Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 36,
+    "fields": {
+        "usuario": 9,
+        "tarea": 14,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.946Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 37,
+    "fields": {
+        "usuario": 6,
+        "tarea": 14,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.947Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 38,
+    "fields": {
+        "usuario": 12,
+        "tarea": 14,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.948Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 39,
+    "fields": {
+        "usuario": 5,
+        "tarea": 15,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.958Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 40,
+    "fields": {
+        "usuario": 14,
+        "tarea": 15,
+        "observaciones": "",
+        "fecha_asignacion": "2024-10-25T06:31:17.959Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 41,
+    "fields": {
+        "usuario": 10,
+        "tarea": 6,
+        "observaciones": "Employee individual talk which right wind eye. Production low life follow.\nUnderstand soon thought another site space American. Visit after film young staff you reach cultural.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 42,
+    "fields": {
+        "usuario": 13,
+        "tarea": 6,
+        "observaciones": "Note here those mind whose. Building act performance of maintain break yes crime.\nDiscuss floor region or cold environmental throw cell. Somebody behavior traditional actually much admit meet.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 43,
+    "fields": {
+        "usuario": 10,
+        "tarea": 9,
+        "observaciones": "Difficult of middle cup. Wind certainly treatment like. Thousand official power pick evidence remain.\nGet class become outside decide our another. State piece decade short board degree positive.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 44,
+    "fields": {
+        "usuario": 15,
+        "tarea": 2,
+        "observaciones": "Act modern short. Worry dream size outside. Child make build range walk PM.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 45,
+    "fields": {
+        "usuario": 11,
+        "tarea": 8,
+        "observaciones": "Design price Mr culture over yes. Why statement anything up good seek those protect. Short work however drive individual spend economic mother.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 46,
+    "fields": {
+        "usuario": 9,
+        "tarea": 2,
+        "observaciones": "Attention experience treat site PM. Issue this hospital so foreign work me.\nQuite television those soon left. Require event send language rise effort major. Take collection individual.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 47,
+    "fields": {
+        "usuario": 4,
+        "tarea": 4,
+        "observaciones": "Leave within against strategy might. Nothing about find understand good.\nField actually pretty tend decision partner former.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 48,
+    "fields": {
+        "usuario": 1,
+        "tarea": 14,
+        "observaciones": "College tree too plant southern health list remain. American maybe responsibility final her. Whole responsibility service then audience by.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 49,
+    "fields": {
+        "usuario": 4,
+        "tarea": 6,
+        "observaciones": "Pull let television risk. Nearly include movement boy edge. Price suddenly all behind until industry.\nSet fact need family debate way. Congress edge plant four. Design sport drop them arrive throw.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 50,
+    "fields": {
+        "usuario": 15,
+        "tarea": 11,
+        "observaciones": "Big leg so may special approach join produce. Medical contain all. Price air modern expert force few.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 51,
+    "fields": {
+        "usuario": 10,
+        "tarea": 14,
+        "observaciones": "Indeed argue very international into white. Run vote huge none. Story seek job role history risk seem.\nNor writer PM can almost. Strong bring nothing value because allow.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 52,
+    "fields": {
+        "usuario": 12,
+        "tarea": 9,
+        "observaciones": "No receive fight answer budget their. Either employee style instead officer say above. Usually thing main company maintain report particularly.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 53,
+    "fields": {
+        "usuario": 13,
+        "tarea": 9,
+        "observaciones": "Night forget keep on personal eye at worry. Direction benefit line couple miss international. Brother almost process feel majority deal us.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 54,
+    "fields": {
+        "usuario": 9,
+        "tarea": 10,
+        "observaciones": "Still month much garden. While late those interest detail. Meet eye others decide various technology commercial I.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.asignacion",
+    "pk": 55,
+    "fields": {
+        "usuario": 13,
+        "tarea": 15,
+        "observaciones": "Everybody fast us together. Particular senior stage history. Interest by right article control pretty alone.\nWell throughout measure before man these discover. History note moment without community.",
+        "fecha_asignacion": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 1,
+    "fields": {
+        "tarea": 14,
+        "usuario": 1,
+        "contenido": "Attorney difficult Democrat move especially industry. Own month glass cause with because fear. Operation continue worry unit PM of.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 2,
+    "fields": {
+        "tarea": 14,
+        "usuario": 13,
+        "contenido": "History travel glass trial race seven. Draw as whether activity show.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 3,
+    "fields": {
+        "tarea": 8,
+        "usuario": 9,
+        "contenido": "Alone mention if world. Again firm service team dark.\nWithout somebody per fire. Create also visit sense already.\nMrs him her Mr. Add policy artist five.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 4,
+    "fields": {
+        "tarea": 9,
+        "usuario": 4,
+        "contenido": "Business effort camera option. He character program government site result quickly.\nTurn wide sense kid view approach must. Simply activity bag others firm writer national.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 5,
+    "fields": {
+        "tarea": 5,
+        "usuario": 6,
+        "contenido": "Sort cause data address move treat test. Still figure fall car environmental high let. Best could sea such must we amount. Building certainly indicate list sign activity.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 6,
+    "fields": {
+        "tarea": 13,
+        "usuario": 6,
+        "contenido": "Drive myself coach hold ever eat. Computer adult fear. Collection speak street computer course.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 7,
+    "fields": {
+        "tarea": 11,
+        "usuario": 13,
+        "contenido": "Dark strategy include fact cell never attention. Tax day PM say cost when. Teach mission material eye.\nStructure girl foot time west question. Run chance become people.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 8,
+    "fields": {
+        "tarea": 12,
+        "usuario": 11,
+        "contenido": "Shake adult though either glass miss. Part wait course. Determine maintain whole economy word forget there. Call action allow that doctor build range.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 9,
+    "fields": {
+        "tarea": 7,
+        "usuario": 1,
+        "contenido": "Table center campaign standard assume help. We approach hit personal. Authority attorney fast first ask dinner.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 10,
+    "fields": {
+        "tarea": 7,
+        "usuario": 8,
+        "contenido": "Few also whom order politics future. Create friend positive watch city. Best at sister who fire sea difficult.\nWhatever own focus.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 11,
+    "fields": {
+        "tarea": 9,
+        "usuario": 2,
+        "contenido": "Deep central environmental campaign particular clearly very. Read north perform reduce. Two attorney blood leave project.\nCare study crime friend theory reason. Know help own treatment activity too.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 12,
+    "fields": {
+        "tarea": 15,
+        "usuario": 9,
+        "contenido": "Fine until cause once box purpose. Future ask direction subject.\nMain nature member meeting. Word training artist.\nAttorney now within attack discussion sign. Billion able market style already.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 13,
+    "fields": {
+        "tarea": 7,
+        "usuario": 6,
+        "contenido": "Memory vote despite add return walk. Blue whole key. See trial some traditional state risk feeling hold.\nAnything remain suddenly build economic fact marriage. Road scientist change job interesting.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 14,
+    "fields": {
+        "tarea": 14,
+        "usuario": 11,
+        "contenido": "Huge important speak represent dark. Doctor once break find five question child. Kitchen measure remain.\nDifferent decade gas.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+},
+{
+    "model": "ejercicio.comentario",
+    "pk": 15,
+    "fields": {
+        "tarea": 8,
+        "usuario": 8,
+        "contenido": "Eight responsibility hour. Home daughter determine indicate success gas effort perhaps. Worker assume place foreign author middle man movement.",
+        "fecha_comentario": "2024-10-25T06:31:17.437Z"
+    }
+}
+]
