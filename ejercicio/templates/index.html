@@ -1,6 +1,7 @@
-<html>
-    <head></head>
-    <body>
+{% extends "principal.html" %}
+
+{%block contenido%}
+   
     <h1>Indice de enlaces</h1>
 
     <ul>
@@ -14,7 +15,4 @@
         <li><a href="{% url 'usuarios_noasignados'%}">Usuarios no asignados</a></li>
         <li><a href="{% url 'etiquetas_proyecto' 8%}">Etiquetas del proyecto 8</a></li>
     </ul>
-
-    </body>
-
-</html>
+{% endblock %}

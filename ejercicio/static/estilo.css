@@ -1,0 +1,19 @@
+h1{
+    color: navy;
+}
+footer{
+    background-color: darkgreen;
+}
+.menu{
+    background-color: aqua;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vh;
+}
+
+p{
+    color: crimson;
+}

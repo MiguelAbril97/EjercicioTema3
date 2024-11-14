@@ -1,0 +1,21 @@
+<div>
+    <h2>Nombre: {{proyecto.nombre}}</h2>
+    <h2>Descripcion:</h2>
+    <p>{{proyecto.descripcion}}</p>
+
+    <h2>Duracion estimada: {{proyecto.duracion_estimada}}</h2>
+    <h2>Fecha inicio: {{proyecto.fecha_inicio}}</h2>
+    <h2>Finalizacion: {{proyecto.fecha_finalizacion}}</h2>
+    <h2>Administrador: {{proyecto.administrador.nombre}}</h2>
+    <h2>Colabroadores:</h2>
+
+    <ul>
+        {%for colaborador in proyecto_mostrar.colaboradores.all%}
+            {%include 'proyecto/colaboradores.html'%}
+            {% empty %}
+            <p>No hay colaboradoradores en este proyecto</p>
+        {% endfor %}
+   
+    </ul>
+
+</div>
