@@ -10,14 +10,21 @@
     <h2>Colabroadores:</h2>
 
     <ul>
-       
+        {% if proyecto.colaboradores.all|length == 1 %}
+        
+            <p>Proyecto poco apoyado</p>
+        
+        {% elif proyecto.colaboradores.all|length > 2 %}
+        
+            <p>Proyecto muy apoyado</p>
+        
+        {% endif %}
+
         {%for colaborador in proyecto.colaboradores.all%}
            
-            {% if proyecto.colaboradores.all|length == 1 %}
-             <p>Proyecto poco apoyado</p>
-            {% endif %}
-            
             {%include 'proyectos/colaboradores.html'%}
+
+            
         
         {% endfor |linebreaksbr %}
    
