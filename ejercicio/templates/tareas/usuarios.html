@@ -1,13 +1,10 @@
 
-<div>
-
-            
+<div>     
      <li>Nombre: {{usuario.nombre}}</li>
          <ul>   
              <li>Correo: {{usuario.correo}}</li>
-             <li>Fecha asignacion: {{usuario.fecha_asignacion}}
+             <li>Fecha asignacion: {{usuario.fecha_asignacion | default:"Sin asignar"}}
             
          </ul>
-
 
 </div>

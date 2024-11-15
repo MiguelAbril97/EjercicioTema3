@@ -1,10 +1,16 @@
 {% extends "principal.html" %}
 
+{%block cabecera %}
+<h1> Tareas </h1>
+
+{% endblock %}
+
 {%block contenido%}
    
-{%for tarea in tareas_mostrar%}
+    {%for tarea in tareas_mostrar%}
     
         {%include 'tareas/tarea.html'%}
+       
 
         <h2>Asignados:</h2>
             <ul>
@@ -18,7 +24,10 @@
             <li><p>{{comentario.contenido}}</p></li>
             {%endfor%}
         </ul>
-   
+
+        {%empty%}
+        <p>No hay nada que mostrar</p>
+
     {%endfor linebreaksbr%}
 
 {% endblock %}
