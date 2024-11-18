@@ -6,7 +6,11 @@
     <h2>Prioridad: {{tarea.prioridad}}</h2>
     <h2>Estado: {{tarea.estado}}</h2>
     <h2>Completada: {{tarea.completada}}</h2>
+    {%if and tarea.fecha_creacion__year %}
+        <p>Hay que seguir trabajando</p>
+    {%endif%}
     <h2>Creacion: {{tarea.fecha_creacion|date:"d/m/Y"}}</h2>
+
     <h2>Vencimiento: {{tarea.fecha_vencimiento}}</h2>
     <h2>Creador:{{tarea.creador.nombre}}</h2>
 </div>

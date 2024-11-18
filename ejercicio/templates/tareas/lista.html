@@ -20,7 +20,14 @@
             </ul>
         <h2>Comentarios: </h2>
         <ul>
+            {% if tarea.comentario.all|length < 3%}
+
+                <p>Tarea poco comentada</p>
+
+            {% endif %}
+
             {%for comentario in tarea.comentario.all%}
+
             <li><p>{{comentario.contenido}}</p></li>
             {%endfor%}
         </ul>
