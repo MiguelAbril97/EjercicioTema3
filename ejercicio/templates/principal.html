@@ -5,11 +5,11 @@
         {%block link_css%}
         {%endblock%}
         <link rel="stylesheet" href="{% static 'estilo.css' %}">
+        <script type="text/javascript" src="{% static 'script.js' %}"></script>
 
     </head>
     <body>
         <img src='{%static "imagen.jpg"%}' alt="Viendo los requisitos del proyecto">
-        <h1>Enlaces</h1>
             {%include 'estructura/menu.html'%}
             
             {%block cabecera%}

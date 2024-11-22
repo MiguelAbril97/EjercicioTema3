@@ -1,16 +1,16 @@
 <div>
-    <h2>Nombre: {{proyecto.nombre}}</h2>
+    <h2>Nombre: {{proyecto.nombre|title}}</h2>
     <h2>Descripcion:</h2>
     <p>{{proyecto.descripcion|truncatewords:15}}</p>
 
-    <h2>Duracion estimada: {{proyecto.duracion_estimada}}</h2>
+    <h2>Duracion estimada: {{proyecto.duracion_estimada|upper}}</h2>
     <h2>Fecha inicio: {{proyecto.fecha_inicio}}</h2>
     <h2>Finalizacion: {{proyecto.fecha_finalizacion}}</h2>
-    <h2>Administrador: {{proyecto.administrador.nombre}}</h2>
+    <h2>Administrador: {{proyecto.administrador.nombre|capfirst}}</h2>
     <h2>Colabroadores:</h2>
 
     <ul>
-        {% if proyecto.colaboradores.all|length == 1 %}
+        {% if proyecto.colaboradores.all|length == 1 or proyecto.colaboradores.all|length == 0 %}
         
             <p>Proyecto poco apoyado</p>
         
